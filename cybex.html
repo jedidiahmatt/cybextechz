@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Silent CyberTech</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <style>
+    body { background: #0d0d0d; color: #e0e0e0; font-family: 'Orbitron', sans-serif; margin: 0; }
+    header, footer { text-align: center; padding: 2rem; background: #000; color: #00ffff; }
+    nav ul { list-style: none; display: flex; justify-content: center; gap: 2rem; padding: 0; }
+    nav ul li a { color: #00ffff; text-decoration: none; }
+    section { padding: 4rem 2rem; text-align: center; }
+    .service-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
+    .card { background: #111; padding: 1.5rem; border-radius: 12px; border: 1px solid #00ffff33; box-shadow: 0 0 10px #00ffff22; }
+    .contact-btns a { color: #00ffff; border: 1px solid #00ffff; padding: 0.8rem 1.5rem; border-radius: 10px; text-decoration: none; margin: 0.5rem; display: inline-block; }
+    .trusted-section { background: #0f1c1f; color: #e0f7ff; padding: 4rem 2rem; }
+    .counters { display: flex; justify-content: center; flex-wrap: wrap; gap: 2rem; margin-top: 2rem; }
+    .counter { font-size: 2rem; color: #00ffff; }
+    .partner-logos { display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-top: 2rem; }
+    .partner-logos img { width: 100px; filter: grayscale(100%) brightness(200%); opacity: 0.8; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CYBEX</h1>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#trusted">Why Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>  <section id="hero">
+    <h2>Empowering Secure Futures</h2>
+    <div id="typed-text"></div>
+  </section>  <section id="services" data-aos="fade-up">
+    <h2>Our Services</h2>
+    <div class="service-list">
+      <div class="card">Penetration Testing</div>
+      <div class="card">Whatsapp Bug bots</div>
+      <div class="card">Password Cracking</div>
+      <div class="card">Dark webs and Apps solution</div>
+      <div class="card">Digital Forensics</div>
+      <div class="card">Cyber Attacks</div>
+    </div>
+  </section>  <section id="about" data-aos="fade-up">
+    <h2>About Us</h2>
+    <p style="max-width: 800px; margin: 0 auto;">We are certified ethical hackers committed to helping organizations detect vulnerabilities and stay ahead of cyber threats. Our mission is to promote security through education and proactive defense strategies.</p>
+    <section id="payment" style="background:#111; color:#fff; text-align:center; padding:4rem 2rem;">
+  <h2>Payment Methods</h2>
+  <p>We accept secure payments via the platforms below:</p>
+  <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:2rem; margin-top:2rem; font-size:1.2rem;">
+    <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/PalmPay_logo.svg/120px-PalmPay_logo.svg.png" alt="PalmPay" width="80"><br>PalmPay</div>
+    <div><img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/64/First_Bank_of_Nigeria_logo.svg/120px-First_Bank_of_Nigeria_logo.svg.png" alt="First Bank" width="80"><br>First Bank</div>
+    <div><i class="fas fa-university"></i><br>Finance Transfer</div>
+    <div><img src="https://seeklogo.com/images/T/trust-wallet-logo-8A0F5D3C3B-seeklogo.com.png" alt="Trust Wallet" width="80"><br>Trust Wallet</div>
+  </div>
+</section>
+  </section>  <section id="trusted" class="trusted-section" data-aos="fade-up">
+    <h2> Trusted Worldwide</h2>
+    <p>We provide expert-level cybersecurity services tailored to meet your unique needs. With a team of certified ethical hackers and security consultants, we ensure your systems are protected from emerging threats. Trusted by clients worldwide, we prioritize discretion, precision, and proactive defense.</p>
+    <div class="counters">
+      <div class="counter"><strong>100+</strong><br>Clients Secured</div>
+      <div class="counter"><strong>24/7</strong><br>Support</div>
+      <div class="counter"><br>Years of Experience</div>
+    </div>
+    <div class="partner-logos">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Example.jpg" alt="Partner 1">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Example.jpg" alt="Partner 2">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Example.jpg" alt="Partner 3">
+    </div>
+  </section>  <section id="contact" data-aos="fade-up">
+    <h2>Contact</h2>
+    <p>Email us at: 
+    gpro45950@gmail.com</p>
+    <div class="contact-btns">
+      <a href="https://t.me/SilentCyberTech"><i class="fab fa-telegram"></i> Telegram</a>
+      <a href="https://wa.me/1234567890"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+    </div>
+  </section>  <footer>
+    <p>&copy; 2025 CYBEX All rights reserved.</p>
+  </footer>  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  <script>
+    AOS.init();
+    new Typed("#typed-text", {
+      strings: [
+        "Ethical Hacking Experts",
+        "24/7 Cyber Defense",
+        "Red Team Specialists",
+        "Bug Bounty Ready",
+        "Smart Security Solutions"
+      ],
+      typeSpeed: 60,
+      backSpeed: 30,
+      backDelay: 1500,
+      loop: true
+    });
+  </script></body>
+</html>
